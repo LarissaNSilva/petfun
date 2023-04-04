@@ -1,0 +1,98 @@
+body {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center;
+}
+
+img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;    
+
+}
+
+.menu a{
+    margin-left: 10px;    
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px;
+    transition: 0.4s;
+    font-family: "Righteous";
+    margin-top: 10px;
+  
+}
+
+.menu a:hover{ 
+     color: #beac05;
+}
+
+.topo{
+    background:#91038a;
+    color: rgb(235, 228, 228);
+    padding: 10px 0px;
+    box-shadow: 0 0 10px 0 #bbbbbb;
+
+}
+
+footer{
+    background: #91038a;
+    color: rgb(216, 208, 208);
+    text-align: center;
+    padding: 10px 0px;
+}
+
+
+h1{
+    font-size: 15pt;
+    text-align: center;
+    font-family: "Righteous";
+    color: #800080;
+
+}
+
+p{
+    font-size: 14pt;
+    margin-top: 5px;
+    text-align: justify;
+
+}
+
+#banner{
+	padding: 50 50px;
+	background-image: url(img/menu4.png);
+	height: 91vh;
+	background-size: cover;
+	background-position: center;  
+}
+
+.modal-header{
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.modal-footer{
+    border-top: 1px solid #e5e5e5
+
+}
+
+.modal-title{
+    color: #800080;
+    font-family: "Righteous";
+    text-align: center;
+}
+
+.modal-body{
+    color: #800080;
+    font-family: "Montserrat";
+}
+
+.modal-format{
+    border-bottom: 1px solid #e5e5e5;
+    padding: 1rem 1rem;
+}
+
+.format-text-center{
+    text-align: center;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>PETFUN</title>
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="style-menu.css">
+  
+</head>
+<body>
+
+    <div class="topo">
+        <p class="menu">
+            <a href="#quem_somos" onclick="abreModal();">Informações | </a>
+            <a id="acessar" href="loja.html">LOJA <i class="bi bi-cart-check-fill"></i></a>
+        </p>
+    </div> <!--topo-->
+
+    <section id="banner"><img src="img/Petfun1.png"></section>
+
+    <div class="modal" tabindex="-1" id="modal-informacoes">
+        <div class="modal-dialog modal-lg" >
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">INFORMAÇÕES</h5>
+              <button type="button" class="close" data-dismiss="modal" onclick="fechaModal();" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-format">
+                    <h1>Quem Somos</h1>
+                    <p>Uma loja inovadora, criativa, fruto da dedicação, cuidado e amor infinito aos animais.
+                        Nossa Missão é alcançar a satisfação dos nossos clientes que se entregam, cuidam, amam e sentem prazer em ver o seu gato ou cachorro de estimação bem alimentado, alegre e saudável.</p>
+                </div>
+                <div class="modal-format">
+                    <h1>Localização</h1>
+                    <p class="format-text-center">Rua Andaraí, nº 5000, Loja 6 | Bairro: Casa Amarela | CEP: 55000-350 | Recife - PE</p>
+                </div>
+                <div class="modal-format">
+                    <h1>Contato</h1>
+                    <p class="format-text-center"><i class="bi bi-whatsapp"></i> (00) 00000-0000 | <i class="bi bi-envelope"></i> petfun@gmail.com.br</p>
+                </div>
+                <div class="modal-format">
+                    <h1>Horário de Funcionamento</h1>
+                    <p class="format-text-center">Segunda-feira a Sexta-feira das 8h às 21h | Sábados das 8h às 18h </p><br>
+                    
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <footer>
+        &copy;2023.PetFun
+    </footer>
+    
+</body>
+</html>
+<script>
+      function abreModal() {
+            document.getElementById("modal-informacoes").style.opacity = "1";
+            document.getElementById("modal-informacoes").style.display = "block";
+
+        }
+        function fechaModal(){
+            document.getElementById("modal-informacoes").style.opacity = "0";
+            document.getElementById("modal-informacoes").style.display = "none";
+        }
+</script>
+

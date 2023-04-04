@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <meta charset="UTF-8">
+  <title>PETFUN</title>
+  <link rel="shortcut icon" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" type="text/css" href="style-loja.css">  
+  <script type="text/javascript" src="loja.js"></script> 
+
+</head>
+  <body>
+    <div class="topo">
+      <p id="topoP"><a id="voltar" href="menu.html" title="Menu"><i class="bi bi-chevron-left"></i></a>
+      <img src="img/Petfun3.png" id="imgtopo"><br><br>ESCOLHA SEUS PRODUTOS E FAÇA SEU PET FELIZ</p>
+    </div> <!--topo-->
+
+    <h3>Rações</h3>
+
+    <div id="racao1" class="produto" onclick="escolherRacao1()">
+      <img src="img/Imagem3.jpg">
+      <h4>Ração Premier (Pet, Cães e Filhotes) Sabor: Frango e Salmão - 10kg</h4>
+      <p>- Pelagem bonita e pele saudável: rico em proteínas de alta qualidade e equilíbrio ideal de ácidos graxos essenciais - ômegas 3 e 6;<br>
+        - Sabor excepcional: utilização de ingredientes de alta qualidade que agradam aos paladares mais exigentes;<br>
+        - Desenvolvimento excelente: níveis ótimos de proteínas, energia, vitaminas e minerais. Enriquecido com DHA, ômega 3 essencial ao aprendizado dos filhotes.</p>
+        <p>Cod: 3108262</p>
+      <p class="preco" id="valorracao1">R$201,90</p>
+
+    </div>
+
+    <div id="racao2" class="produto" onclick="escolherRacao2()">
+      <img src="img/Imagem8.jpg">
+      <h4>Ração Úmida Pet Delícia Natural (Cachorros) Sabor: Picadinho de Carne - 320g</h4>
+      <p>- Sódio controlado;<br>
+        - Não contém carnes mecanicamente separada, altamente palatável e digestível;<br>
+        - Enriquecida com fibras, prebióticos e beta-glucanos;<br>
+        - Livre de conservantes, corantes, transgênicos, sabores artificiais, e subprodutos;<br>
+        - Rica em ômegas 3 e 6, proporcionando uma pele saudável e pelos com brilho;<br></p>
+        <p>Cod: 1954006</p>
+      <p class="preco" id="valorracao2">R$14,39</p>
+
+    </div> 
+
+    <div id="racao3" class="produto" onclick="escolherRacao3()">
+        <img src="img/Imagem12.jpg">
+        <h4>Ração Úmida Pedigree Sachê (Cães Adultos de Raças Pequenas) Sabor: Frango ao Molho - 100g</h4>
+        <p>- Suculentos pedacinhos cozidos a vapor;<br>
+            - Pelo saudável: contém Ômega 6 e Zinco;<br>
+            - Proporciona fezes firmes e fáceis de limpar;<br>
+            - Sem conservantes, corantes ou aromas artificiais.</p>
+        <p>Cod: 3106423</p>
+        <p class="preco" id="valorracao3">R$2,60</p>
+    
+    </div> 
+
+    <div id="racao4" class="produto" onclick="escolherRacao4()">
+        <img src="img/Imagem9.jpg">
+        <h4>Ração Special Cat Premium (Gatos Adultos) Sabor: Peixe - 20Kg</h4>
+        <p>- Não contém corantes;<br>
+          - Extrato de Yucca: reduz o odor das fezes em até 50%, favorecendo as condições do ambiente;<br>
+        - Ômegas 3 E 6 + Zinco Orgânico: A combinação entre os ácidos graxos essenciais e o zinco orgânico contribui para a proteção da pele e a redução da queda de pelos, resultando em uma pelagem mais bonita e brilhante.</p>
+        <p>Cod: 1780212</p>
+        <p class="preco" id="valorracao4">R$241,90</p>
+    
+    </div>
+
+    <div id="racao5" class="produto" onclick="escolherRacao5()">
+        <img src="img/Imagem10.jpg">
+        <h4>Ração Úmida Pet Delícia Natural (Gatos) Sabor: Picadinho de Carne - 320g</h4>
+        <p>- Antioxidantes e anti-inflamatórios naturais;<br>
+        - Livre de corantes, sabores artificiais, transgênicos, conservantes e subprodutos;<br>
+        - Promove o fortalecimento do sistema imunológico.</p>
+        <p>Cod: 3108041</p>
+        <p class="preco" id="valorracao5">R$17,09</p>
+    
+    </div>
+
+    <div id="racao6" class="produto" onclick="escolherRacao6()">
+        <img src="img/Imagem11.jpg">
+        <h4>Ração Úmida Whiskas Sachê (Gatos Adultos) Sabor: Cordeiro ao Molho - 85g</h4>
+        <p> - Refeição completa e balanceada;<br>
+            - Suculentos pedacinhos cozidos a vapor;<br>
+            - Ajuda a manter a saúde do trato urinário;<br>
+            - Feito com ingredientes naturais de alta qualidade, vitaminas e minerais;</p>
+        <p>Cod: 2032050</p>
+        <p class="preco" id="valorracao6">R$2,09</p>
+    
+    </div>
+
+    <h3>Ossinhos e Pestiscos</h3>
+
+    <div id="petisco1" class="produto" onclick="escolherPetisco1()">
+      <img src="img/Imagem4.jpg" id="img-bifinho">
+      <h4>Bifinho Kelco Keldog Criadores (Sabor: Carne e Cereais) / Raças Pequenas - 500g</h4>
+      <p>Informação Nutricional: Porção de 7g (1 unidade)<br>
+        - Valor Energético: 18 Kcal<br>
+        Modo de uso:<br>
+        - Cães até 4 kg: até 2 unidades por dia.<br>
+        - Cães acima de 4 kg: até 4 unidades por dia.</p>
+        <p>Cod: 3105871-1</p>
+      <p class="preco" id="valorpetisco1">R$22,41</p>
+
+    </div> 
+
+    <div id="petisco2" class="produto" onclick="escolherPetisco2()">
+        <img src="img/Imagem5.jpg">
+        <h4>Osso Deliciosso Baby Palito Fino (Sabor: Leite) / Cães Filhotes - 100g</h4>
+        <p>Distribuir a quantidade recomendada de palitos ao longo do dia adicionado ao alimento ou individual entre as refeições.<br>
+            Porte/Tamanho:<br>
+            - Cães de Médio Pequeno - 01 a 02 palitos<br>
+            - Cães de Médio Porte - 02 a 03 palitos<br>
+            - Cães de Grande Porte - 03 a 04 palitos
+            </p>
+        <p class="preco" id="valorpetisco2">R$20,80</p>
+
+    </div> 
+
+    <div id="petisco3" class="produto" onclick="escolherPetisco3()">
+        <img src="img/Imagem15.jpg" id="img-bifinho">
+        <h4>Osso Kelco Keldog Dental Francês - 40g</h4>
+        <p> - Limpa os dentes;<br>
+            - Massageia as gengivas;<br>
+            - Composição: Raspa de Couro Bovino, Gelatina Industrial<br>
+            - Com hexametafosfato, auxilia no controle do tártaro;<br>
+            - Indicado para cães de pequeno porte ou filhotes com mais de 4 meses.</p>
+        <p>Cod: 3109013</p>
+        <p class="preco" id="valorpetisco3">R$9,00</p>
+    
+    </div> 
+
+    <div id="petisco4" class="produto" onclick="escolherPetisco4()">
+        <img src="img/Imagem13.jpg" id="img-bifinho">
+        <h4>Petisco Whiskas Temptations (Gatos Adultos) Sabor: Salmão - 40g</h4>
+        <p>- Petisco crocante com delicioso recheio;<br>
+            - Com taurina e enriquecido com vitaminas e minerais;<br>
+            - Irresistível e saboroso;<br>
+            - Demonstração de carinho e conexão com o seu gato.</p>
+        <p>Cod: 3100855</p>
+        <p class="preco" id="valorpetisco4">R$9,62</p>
+    
+    </div> 
+
+    <div id="petisco5" class="produto" onclick="escolherPetisco5()">
+        <img src="img/Imagem14.jpg" id="img-bifinho">
+        <h4>Petisco WOW Pet Food Gourmet (Gatos) Sabor: Lombinho com Cúrcuma - 50g</h4>
+        <p> - 100% natural;<br>
+            - Crocante e saboroso;<br>
+            - Livre de conservantes e aditivos químicos.</p>
+        <p>Cod: 2657068</p>
+        <p class="preco" id="valorpetisco5">R$22,41</p>
+    
+    </div> 
+
+    <h3>Brinquedos</h3>
+
+    <div id="brinquedo1" class="produto" onclick="escolherBrinquedo1()">
+        <img src="img/Imagem6.jpg">
+        <h4>Brinquedo Jambo Bola Diamond (Cor: Rosa)</h4>
+        <p> <table>
+            <tr>
+              <th>Indicação</th>
+              <th>Idade</th>
+              <th>Material</th>
+              <th>Dimensões Aproximadas</th>
+              <th>Código</th>
+            </tr>
+            <tr>
+              <td>Cachorros</td>
+              <td>Adultos<br>Filhotes<br>Idosos</td>
+              <td>Borracha</td>
+              <td>Tam. P: Diâmetro: 12 cm<br>Tam. G: Diâmetro: 15 cm</td>
+              <td>2183865</td>
+            </tr>
+          </table>
+            </p>
+        <p class="preco" id="valorbrinquedo1">R$17,99</p>
+
+    </div> 
+
+    <div id="brinquedo2" class="produto" onclick="escolherBrinquedo2()">
+        <img src="img/Imagem7.jpg">
+        <h4>Brinquedo KONG Wild Knots Bear (Cor: Bege) / Para Cães</h4>
+        <p><table>
+            <tr>
+              <th>Indicação</th>
+              <th>Idade</th>
+              <th>Material</th>
+              <th>Dimensões Aproximadas</th>
+              <th>Código</th>
+            </tr>
+            <tr>
+              <td>Cachorros</td>
+              <td>Adultos<br>Filhotes<br>Idosos</td>
+              <td>Borracha, <br>Plástico</td>
+              <td>Extra Pequeno: Comprimento: 13cm / Largura: 10cm / Espessura: 5cm<br>Pequeno: Comprimento: 20cm / Largura: 18cm / Espessura: 6cm<br>
+                Médio: Comprimento: 25cm /Largura: 22,5cm /Espessura:</td>
+              <td>311007</td>
+            </tr>
+          </table></p>
+        <p class="preco" id="valorbrinquedo2">R$6,90</p>
+        
+    </div> <!--produto-sorvete-->
+
+    <div id="brinquedo3" class="produto" onclick="escolherBrinquedo3()">
+        <img src="img/Imagem16.jpg">
+        <h4>Brinquedo Jambo Ratinho e Bola Pack (Cor: Marrom)</h4>
+        <p><table>
+            <tr>
+              <th>Indicação</th>
+              <th>Idade</th>
+              <th>Material</th>
+              <th>Dimensões Aproximadas</th>
+              <th>Código</th>
+            </tr>
+            <tr>
+              <td>Gatos</td>
+              <td>Adultos<br>Filhotes<br>Idosos</td>
+              <td>Algodão, <br>Poliéster</td>
+              <td>Altura: 20cm<br> Largura: 9cm<br> Comprimento: 4cm</td>
+              <td>2179714</td>
+            </tr>
+          </table></p>
+        <p class="preco" id="valorbrinquedo3">R$9,08</p>
+        
+    </div> <!--produto-sorvete-->
+
+    <div id="brinquedo4" class="produto" onclick="escolherBrinquedo4()">
+        <img src="img/Imagem17.jpg">
+        <h4>Brinquedo Varinha Dental (Cor: Rosa)</h4>
+        <p><table>
+            <tr>
+              <th>Indicação</th>
+              <th>Idade</th>
+              <th>Material</th>
+              <th>Dimensões Aproximadas</th>
+              <th>Código</th>
+            </tr>
+            <tr>
+              <td>Gatos</td>
+              <td>Adultos<br>Filhotes<br>Idosos</td>
+              <td>Plástico Atóxico</td>
+              <td>Largura: 3cm<br> Comprimento: 15cm</td>
+              <td>2549218</td>
+            </tr>
+          </table></p>
+        <p class="preco" id="valorbrinquedo4">R$32,00</p>
+        
+    </div> <!--produto-sorvete-->
+
+    <h3>Acessórios para alimentação</h3>
+
+    <div id="alimentacao1" class="produto" onclick="escolherAlimentacao1()">
+        <img src="img/Imagem18.jpg">
+        <h4>Comedouro Me.Au Pet Inox - 210mL</h4>
+        <p><table>
+            <tr>
+              <th>Indicação</th>
+              <th>Idade</th>
+              <th>Material</th>
+              <th>Dimensões Aproximadas</th>
+              <th>Código</th>
+            </tr>
+            <tr>
+              <td>Cães<br>Gatos</td>
+              <td>Adultos<br>Filhotes<br>Idosos</td>
+              <td>Aço Inox</td>
+              <td>Altura: 3,5cm<br> Largura: 11cm<br> Comprimento: 11cm</td>
+              <td>2764999</td>
+            </tr>
+          </table></p>
+        <p class="preco" id="valoralimentacao1">R$12,74</p>
+    
+    </div>
+
+    <div id="alimentacao2" class="produto" onclick="escolherAlimentacao2()">
+        <img src="img/Imagem19.jpg">
+        <h4>Fonte Bebedouro Amicus Aqua (Cor: Vermelho)</h4>
+        <p><table>
+            <tr>
+              <th>Indicação</th>
+              <th>Idade</th>
+              <th>Material</th>
+              <th>Dimensões Aproximadas</th>
+              <th>Código</th>
+            </tr>
+            <tr>
+              <td>Cães<br>Gatos</td>
+              <td>Adultos<br>Filhotes<br>Idosos</td>
+              <td>ABS,<br>Aço Inox,<br>Carvão Ativado</td>
+              <td>Altura: 6,5cm<br> Largura: 20cm<br> Comprimento: 20cm</td>
+              <td>1994061</td>
+            </tr>
+          </table></p>
+        <p class="preco" id="valoralimentacao2">R$27,99</p>
+    
+    </div>
+
+    <h3>Acessórios</h3>
+
+    <div id="acessorio1" class="produto" onclick="escolherAcessorio1()">
+        <img src="img/Imagem21.jpg">
+        <h4>Conjunto Peitoral Style Mesh e Guia (Cor: Rainbow)</h4>
+        <p><table>
+            <tr>
+              <th>Indicação</th>
+              <th>Idade</th>
+              <th>Material</th>
+              <th>Dimensões Aproximadas</th>
+              <th>Código</th>
+            </tr>
+            <tr>
+              <td>Gatos</td>
+              <td>Adultos<br>Filhotes<br>Idosos</td>
+              <td>Poliéster,<br>Detalhes em borracha atóxica.</td>
+              <td>Altura: 2cm /Largura: 10cm /Comprimento: 1,20m<br>
+                Circunferência Abdominal: de 16cm á 36cm<br>
+                Circunferência do Pescoço: 24cm</td>
+              <td>2637500</td>
+            </tr>
+          </table></p>
+        <p class="preco" id="valoracessorio1">R$70,10</p>
+    
+    </div>
+
+    <div id="acessorio2" class="produto" onclick="escolherAcessorio2()">
+        <img src="img/Imagem22.jpg">
+        <h4>Peitoral e Guia Toh Outdoor Eclipse - Tam. M</h4>
+        <p><table>
+            <tr>
+              <th>Indicação</th>
+              <th>Idade</th>
+              <th>Material</th>
+              <th>Dimensões Aproximadas</th>
+              <th>Código</th>
+            </tr>
+            <tr>
+              <td>Cachorros</td>
+              <td>Adultos<br>Filhotes<br>Idosos</td>
+              <td>Poliéster</td>
+              <td>Tórax Tam. M: 38cm a 48cm;<br>
+                Guia: Comprimento: 1,20m /Largura: 2,0cm /Raça indicativa: Shih Tzu, Lhasa Apso, Bulldog Francês, Pug.</td>
+              
+              <td>2536651</td>
+            </tr>
+          </table></p>
+        <p class="preco" id="valoracessorio2">R$25,80</p>
+    
+    </div>
+
+    <h3>Caminhas e Arranhadores</h3>
+
+    <div id="caminha1" class="produto" onclick="escolherCaminha1()">
+        <img src="img/Imagem23.jpg">
+        <h4>Cama Europa Paris Fábrica Pet - Tam. G</h4>
+        <p><table>
+            <tr>
+              <th>Indicação</th>
+              <th>Idade</th>
+              <th>Material</th>
+              <th>Dimensões Aproximadas</th>
+              <th>Código</th>
+            </tr>
+            <tr>
+              <td>Cachorros<br>Gatos</td>
+              <td>Adultos<br>Filhotes<br>Idosos</td>
+              <td>Poliéster</td>
+              <td>Tam. G Altura: 17cm/ Largura: 40cm /Comprimento: 58cm <br>
+                Medidas Internas: Largura: 30cm /Comprimento: 55cm</td>
+              
+              <td>2019540</td>
+            </tr>
+          </table></p>
+        <p class="preco" id="valorcaminha1">R$89,64</p>
+    
+    </div>
+
+    <div id="caminha2" class="produto" onclick="escolherCaminha2()">
+        <img src="img/Imagem24.jpg">
+        <h4>Cama Luppet Iglu Super Luxo (Cor: Azul) - Tam. M</h4>
+        <p><table>
+            <tr>
+              <th>Indicação</th>
+              <th>Idade</th>
+              <th>Material</th>
+              <th>Dimensões Aproximadas</th>
+              <th>Código</th>
+            </tr>
+            <tr>
+              <td>Cachorros<br> Gatos</td>
+              <td>Adultos<br>Filhotes<br>Idosos</td>
+              <td>Espuma,<br> Nylon</td>
+              <td>Altura: 35cm<br>Largura: 40cm <br>Comprimento: 40cm</td>
+              
+              <td>1658453</td>
+            </tr>
+          </table></p>
+        <p class="preco" id="valorcaminha2">R$152,80</p>
+    
+    </div>
+
+    <div id="arranhador" class="produto" onclick="escolherArranhador()">
+        <img src="img/Imagem25.jpg">
+        <h4>Brinquedo Arranhador Chalesco Kitty - Tam. Único</h4>
+        <p><table>
+            <tr>
+              <th>Indicação</th>
+              <th>Idade</th>
+              <th>Material</th>
+              <th>Dimensões Aproximadas</th>
+              <th>Código</th>
+            </tr>
+            <tr>
+              <td>Gatos</td>
+              <td>Adultos<br>Filhotes<br>Idosos</td>
+              <td>Papelão</td>
+              <td>Altura: 36,5cm<br>Largura: 20cm <br>Comprimento: 10cm</td>
+              
+              <td>310192</td>
+            </tr>
+          </table></p>
+        <p class="preco" id="valorarranhador">R$69,20</p>
+    
+    </div>
+
+    <h3>Informações para entrega</h3>
+
+    <div class="produto">
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6" >
+            <label>Nome Completo:</label>
+            <input type="text" class="form-control" id="nome" >
+          </div>
+          <div class="form-group col-md-6">
+            <label>Telefone:</label>
+            <input type="number" class="form-control" id="telefone" placeholder="(xx) xxxxx-xxxx">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label>Endereço:</label>
+            <input type="text" class="form-control" id="endereco">
+          </div>
+          <div class="form-group col-md-6">
+            <label>Bairro:</label>
+            <input type="text" class="form-control" id="bairro">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <label>Ponto de Referência:</label>
+            <input type="text" class="form-control" id="referencia">
+        </div>
+
+        <div class="form-group col-md-4">
+          <label>Tipo de Entrega:</label>
+          <select id="entrega" class="form-control">
+            <option>Selecione...</option>
+            <option value="Entregar no endereço">Entregar no endereço</option>
+            <option value="Retirar no local">Retirar no local</option>
+          </select>
+        </div>
+
+        <div class="form-group col-md-4">
+          <label>Forma de Pagamento:</label>
+          <select id="pagamento" class="form-control">
+            <option>Selecione...</option>
+            <option value="Dinheiro">Dinheiro</option>
+            <option value="Cartão de Débito">Cartão de Débito</option>
+            <option value="Cartão de Crédito">Cartão de Crédito</option>
+          </select>
+        </div>
+
+        <div class="form-group col-md-12">
+          <label>Observações:</label>
+          <textarea class="form-control" id="observacao"></textarea>
+        </div>
+
+      </form>
+    </div>
+    </div>
+
+    <div class="botao-icons">
+      <a id="botao-finalizar" onclick="finalizarPedido()">
+          FINALIZAR PEDIDO
+      </a>
+    </div>
+
+  </body>
+</html>
