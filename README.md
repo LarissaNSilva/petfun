@@ -1,5 +1,4 @@
 # petfun
-Nome: PetFun
 
 Este projeto é uma aplicação web que permite que os usuários visualizem um catálogo de produtos para animais de estimação, como rações, brinquedos, acessórios, entre outros. Cada produto possui uma descrição detalhada, preço e imagem para ilustração. Além de visualizar os produtos, os usuários podem fazer pedidos via WhatsApp, diretamente pela plataforma. Ao selecionar o produto desejado, o usuário pode adicionar ao carrinho e, ao finalizar a seleção, enviar o pedido diretamente para o número do WhatsApp da loja.
 
